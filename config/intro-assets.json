@@ -6,7 +6,8 @@
     "files": [
       "server.svg",
       "code-xml.svg",
-      "bot.svg"
+      "bot.svg",
+      "graduation-cap.svg"
     ],
     "licenseFile": "assets/icons/LICENSE"
   },
@@ -23,27 +24,13 @@
     "adaptation": "The dark variant changes the text color to #BC8CFF."
   },
   "education": {
-    "desktopViewBox": "460 x 228",
-    "compactViewBox": "340 x 254",
+    "desktopViewBox": "460 x 166",
+    "compactViewBox": "340 x 204",
     "compactBreakpoint": "620px",
     "degreeWording": "Undergraduate & graduate studies",
     "themes": [
       "light",
       "dark"
-    ],
-    "universityMark": {
-      "file": "assets/wuhan-university-horizontal.png",
-      "originalFileName": "3.1.1-校标组合-校徽与中英文-横向-标准版.png",
-      "sourcePage": "https://www.whu.edu.cn/xxgk/wdbs.htm",
-      "sourceArchive": "https://www.whu.edu.cn/new2024/wdbsxz/xiaobiaozuhe.zip",
-      "originalDimensions": [
-        2334,
-        734
-      ],
-      "sha256": "ccad21c680e8950b1437282347f62c8397ac7bafe76232678185738f9173994f",
-      "verification": "User-selected PNG matches the PNG member in the official university archive byte for byte.",
-      "rendering": "Original PNG embedded in each education SVG at its original aspect ratio and colors, on a white inset panel for light and dark themes."
-    },
-    "assetRevision": "whu-ccad21c6"
+    ]
   }
 }

@@ -53,26 +53,26 @@
   {
     "file": "education-dark-compact.svg",
     "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-intro-assets.mjs",
-    "bytes": 163326,
-    "adaptation": "Education card with the user-selected official Wuhan University horizontal emblem and bilingual wordmark, preserved in its original colors and aspect ratio. White inset panel keeps the official mark legible in both themes; surrounding education copy remains English."
+    "bytes": 1868,
+    "adaptation": "Education typography card with official Lucide graduation-cap icon; English wording supplied by the user."
   },
   {
     "file": "education-dark.svg",
     "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-intro-assets.mjs",
-    "bytes": 163209,
-    "adaptation": "Education card with the user-selected official Wuhan University horizontal emblem and bilingual wordmark, preserved in its original colors and aspect ratio. White inset panel keeps the official mark legible in both themes; surrounding education copy remains English."
+    "bytes": 1751,
+    "adaptation": "Education typography card with official Lucide graduation-cap icon; English wording supplied by the user."
   },
   {
     "file": "education-light-compact.svg",
     "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-intro-assets.mjs",
-    "bytes": 163326,
-    "adaptation": "Education card with the user-selected official Wuhan University horizontal emblem and bilingual wordmark, preserved in its original colors and aspect ratio. White inset panel keeps the official mark legible in both themes; surrounding education copy remains English."
+    "bytes": 1868,
+    "adaptation": "Education typography card with official Lucide graduation-cap icon; English wording supplied by the user."
   },
   {
     "file": "education-light.svg",
     "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-intro-assets.mjs",
-    "bytes": 163209,
-    "adaptation": "Education card with the user-selected official Wuhan University horizontal emblem and bilingual wordmark, preserved in its original colors and aspect ratio. White inset panel keeps the official mark legible in both themes; surrounding education copy remains English."
+    "bytes": 1751,
+    "adaptation": "Education typography card with official Lucide graduation-cap icon; English wording supplied by the user."
   },
   {
     "file": "focus-typing-dark.svg",
@@ -500,14 +500,5 @@
     "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-toolbox-assets.mjs",
     "bytes": 14218,
     "adaptation": "Grouped toolbox typography component with embedded official technology icons; compact layout and light/dark variants. Spring brand icon is used for the Spring Boot and Spring AI labels."
-  },
-  {
-    "file": "wuhan-university-horizontal.png",
-    "source": "https://www.whu.edu.cn/new2024/wdbsxz/xiaobiaozuhe.zip",
-    "sourcePage": "https://www.whu.edu.cn/xxgk/wdbs.htm",
-    "originalFileName": "3.1.1-校标组合-校徽与中英文-横向-标准版.png",
-    "bytes": 121213,
-    "sha256": "ccad21c680e8950b1437282347f62c8397ac7bafe76232678185738f9173994f",
-    "adaptation": "Original PNG bytes; no redraw, recoloring or cropping. User-selected file verified against the official archive."
   }
 ]

@@ -22,10 +22,10 @@
 > With a background in **remote sensing**, I build practical software and **AI Agent applications**.
 
 <picture>
-  <source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/education-dark-compact.svg?v=whu-ccad21c6" />
-  <source media="(max-width: 620px)" srcset="assets/education-light-compact.svg?v=whu-ccad21c6" />
-  <source media="(prefers-color-scheme: dark)" srcset="assets/education-dark.svg?v=whu-ccad21c6" />
-  <img src="assets/education-light.svg?v=whu-ccad21c6" width="460" alt="Wuhan University — School of Remote Sensing and Information Engineering — Undergraduate &amp; graduate studies" />
+  <source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/education-dark-compact.svg" />
+  <source media="(max-width: 620px)" srcset="assets/education-light-compact.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/education-dark.svg" />
+  <img src="assets/education-light.svg" width="460" alt="Wuhan University — School of Remote Sensing and Information Engineering — Undergraduate &amp; graduate studies" />
 </picture>
 
 <br clear="both" />
