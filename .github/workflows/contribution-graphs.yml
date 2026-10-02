@@ -1,0 +1,81 @@
+name: Update contribution graphs
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-graphs
+  cancel-in-progress: false
+
+env:
+  PROFILE_GITHUB_USER: ${{ github.repository_owner }}
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out the profile
+        uses: actions/checkout@f548e57e544e1ff5a4c46bf1e1b8685f8e4a348a
+
+      - name: Set up Node.js
+        uses: actions/setup-node@54337e0d02de9202d0948aaff36ad556375497b9
+        with:
+          node-version: '24'
+
+      - name: Download the pinned generators
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          mkdir -p .tools/3d-output
+          gh api 'repos/abozanona/pacman-contribution-graph/contents/dist/pacman-contribution-graph.min.js?ref=7332e1de7903ab780c3692a4127a59cc13872daa' -H 'Accept: application/vnd.github.raw' > .tools/arcade.mjs
+          gh api 'repos/yoshi389111/github-profile-3d-contrib/contents/dist/index.js?ref=9e3f937195cf840d364388973f73e3c4b3753586' -H 'Accept: application/vnd.github.raw' > .tools/three-d.cjs
+
+      - name: Generate Bomberman in both themes
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/generate-bomberman.mjs
+
+      - name: Generate the 3D contribution graph
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          SETTING_JSON: ${{ github.workspace }}/config/3d-settings.json
+          MAX_REPOS: '100'
+        working-directory: .tools/3d-output
+        shell: bash
+        run: |
+          node ../three-d.cjs "$PROFILE_GITHUB_USER"
+          cp profile-3d-contrib/profile-green-dual.svg ../../assets/contributions-3d.svg
+
+      - name: Validate the generated SVGs
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+          for name in ('bomberman.svg', 'bomberman-dark.svg', 'contributions-3d.svg'):
+              path = Path('assets') / name
+              root = ET.parse(path).getroot()
+              assert root.tag == '{http://www.w3.org/2000/svg}svg', f'Invalid SVG: {name}'
+              assert path.stat().st_size > 1000, f'Empty output: {name}'
+          print('All three contribution SVGs are valid.')
+          PY
+
+      - name: Commit updated contribution graphs
+        shell: bash
+        run: |
+          git add assets/bomberman.svg assets/bomberman-dark.svg assets/contributions-3d.svg
+          if git diff --cached --quiet; then
+            echo 'Contribution graphs are already current.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Update contribution graphs'
+          git push

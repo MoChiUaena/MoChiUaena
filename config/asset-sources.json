@@ -1,0 +1,53 @@
+[
+  {
+    "file": "technology-banner.png",
+    "source": "https://github.com/sourabmaity/sourabmaity/blob/HEAD/header_.png",
+    "bytes": 255153
+  },
+  {
+    "file": "programming.svg",
+    "source": "https://github.com/onimur/.github/blob/HEAD/.resources/git-header.svg",
+    "bytes": 28928
+  },
+  {
+    "file": "hello-coders.gif",
+    "source": "https://github.com/SP-XD/SP-XD/blob/HEAD/images/hellocoders_rounded.gif",
+    "bytes": 1212943,
+    "adaptation": "Greeting-only animation: original frames 0–119; author-name cycle removed."
+  },
+  {
+    "file": "computer.gif",
+    "source": "https://github.com/TheDudeThatCode/TheDudeThatCode/blob/HEAD/Assets/PC.gif",
+    "bytes": 81624
+  },
+  {
+    "file": "java.svg",
+    "source": "https://github.com/devicons/devicon/blob/HEAD/icons/java/java-original.svg",
+    "bytes": 1540
+  },
+  {
+    "file": "spring.svg",
+    "source": "https://github.com/devicons/devicon/blob/HEAD/icons/spring/spring-original.svg",
+    "bytes": 943
+  },
+  {
+    "file": "typescript.svg",
+    "source": "https://github.com/devicons/devicon/blob/HEAD/icons/typescript/typescript-original.svg",
+    "bytes": 943
+  },
+  {
+    "file": "javascript.svg",
+    "source": "https://github.com/devicons/devicon/blob/HEAD/icons/javascript/javascript-original.svg",
+    "bytes": 1144
+  },
+  {
+    "file": "git.svg",
+    "source": "https://github.com/devicons/devicon/blob/HEAD/icons/git/git-original.svg",
+    "bytes": 778
+  },
+  {
+    "file": "markdown.svg",
+    "source": "https://github.com/devicons/devicon/blob/HEAD/icons/markdown/markdown-original.svg",
+    "bytes": 1244
+  }
+]
