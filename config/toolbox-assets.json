@@ -1,0 +1,134 @@
+{
+  "generatedBy": "scripts/generate-toolbox-assets.mjs",
+  "compactBreakpoint": "620px",
+  "categories": [
+    {
+      "id": "backend",
+      "title": "Java backend",
+      "subtitle": "Services & data",
+      "icon": "server",
+      "theme": "orange",
+      "items": [
+        {
+          "name": "Java",
+          "asset": "java.svg"
+        },
+        {
+          "name": "Spring Boot",
+          "asset": "spring.svg"
+        },
+        {
+          "name": "PostgreSQL",
+          "asset": "postgresql.svg"
+        },
+        {
+          "name": "Maven",
+          "asset": "maven.svg"
+        }
+      ],
+      "evidence": [
+        "agent-triage/pom.xml",
+        "resume-workbench/pom.xml"
+      ]
+    },
+    {
+      "id": "full-stack",
+      "title": "Full-stack",
+      "subtitle": "Interfaces & applications",
+      "icon": "code-xml",
+      "theme": "blue",
+      "items": [
+        {
+          "name": "TypeScript",
+          "asset": "typescript.svg"
+        },
+        {
+          "name": "JavaScript",
+          "asset": "javascript.svg"
+        },
+        {
+          "name": "Vue",
+          "asset": "vuejs.svg"
+        },
+        {
+          "name": "React",
+          "asset": "react.svg"
+        },
+        {
+          "name": "Node.js",
+          "asset": "nodejs.svg"
+        },
+        {
+          "name": "Vite",
+          "asset": "vitejs.svg"
+        }
+      ],
+      "evidence": [
+        "resume-workbench/frontend/package.json",
+        "RSHOT/apps/web/package.json",
+        "tech-resume-kit/package.json"
+      ]
+    },
+    {
+      "id": "ai-agents",
+      "title": "AI agents",
+      "subtitle": "Models, protocols & tools",
+      "icon": "bot",
+      "theme": "purple",
+      "items": [
+        {
+          "name": "Spring AI",
+          "asset": "spring.svg"
+        },
+        {
+          "name": "MCP",
+          "asset": "mcp.svg"
+        },
+        {
+          "name": "Tool calling",
+          "icon": "wrench"
+        }
+      ],
+      "evidence": [
+        "agent-triage/pom.xml",
+        "agent-triage/src/main/java/io/github/mochiuaena/triage/model/ModelTools.java",
+        "RSHOT/apps/api/package.json"
+      ]
+    },
+    {
+      "id": "engineering",
+      "title": "Engineering",
+      "subtitle": "Build, test & ship",
+      "icon": "wrench",
+      "theme": "teal",
+      "items": [
+        {
+          "name": "Git",
+          "asset": "git.svg"
+        },
+        {
+          "name": "Docker",
+          "asset": "docker.svg"
+        },
+        {
+          "name": "JUnit",
+          "asset": "junit.svg"
+        },
+        {
+          "name": "Playwright",
+          "asset": "playwright.svg"
+        },
+        {
+          "name": "Markdown",
+          "asset": "markdown.svg"
+        }
+      ],
+      "evidence": [
+        "agent-triage/pom.xml",
+        "resume-workbench/README.md",
+        "resume-workbench/frontend/package.json",
+        "tech-resume-kit/package.json"
+      ]
+    }
+  ]
+}

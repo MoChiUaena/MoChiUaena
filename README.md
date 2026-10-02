@@ -32,14 +32,13 @@
 
 ## My toolbox
 
-<p>
-  <img src="assets/java.svg" width="32" height="32" alt="Java" />&nbsp;&nbsp;
-  <img src="assets/spring.svg" width="32" height="32" alt="Spring" />&nbsp;&nbsp;
-  <img src="assets/typescript.svg" width="32" height="32" alt="TypeScript" />&nbsp;&nbsp;
-  <img src="assets/javascript.svg" width="32" height="32" alt="JavaScript" />&nbsp;&nbsp;
-  <img src="assets/git.svg" width="32" height="32" alt="Git" />&nbsp;&nbsp;
-  <img src="assets/markdown.svg" width="32" height="32" alt="Markdown" />
-</p>
+<p><picture><source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/toolbox-backend-dark-compact.svg" /><source media="(max-width: 620px)" srcset="assets/toolbox-backend-light-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/toolbox-backend-dark.svg" /><img src="assets/toolbox-backend-light.svg" width="100%" alt="Java backend — Java, Spring Boot, PostgreSQL, Maven" /></picture></p>
+
+<p><picture><source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/toolbox-full-stack-dark-compact.svg" /><source media="(max-width: 620px)" srcset="assets/toolbox-full-stack-light-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/toolbox-full-stack-dark.svg" /><img src="assets/toolbox-full-stack-light.svg" width="100%" alt="Full-stack — TypeScript, JavaScript, Vue, React, Node.js, Vite" /></picture></p>
+
+<p><picture><source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/toolbox-ai-agents-dark-compact.svg" /><source media="(max-width: 620px)" srcset="assets/toolbox-ai-agents-light-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/toolbox-ai-agents-dark.svg" /><img src="assets/toolbox-ai-agents-light.svg" width="100%" alt="AI agents — Spring AI, MCP, Tool calling" /></picture></p>
+
+<p><picture><source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/toolbox-engineering-dark-compact.svg" /><source media="(max-width: 620px)" srcset="assets/toolbox-engineering-light-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/toolbox-engineering-dark.svg" /><img src="assets/toolbox-engineering-light.svg" width="100%" alt="Engineering — Git, Docker, JUnit, Playwright, Markdown" /></picture></p>
 
 ## Things I'm building
 
@@ -113,6 +112,7 @@ A little fun along the way.
 - Contribution animation: [abozanona](https://github.com/abozanona/pacman-contribution-graph)
 - 3D contribution visualization: [yoshi389111](https://github.com/yoshi389111/github-profile-3d-contrib)
 - Technology icons: [Devicon](https://github.com/devicons/devicon)
+- MCP icon: [Simple Icons](https://github.com/simple-icons/simple-icons)
 - Interface icons: [Lucide](https://github.com/lucide-icons/lucide)
 - Typing animation: [README Typing SVG](https://github.com/DenverCoder1/readme-typing-svg)
 

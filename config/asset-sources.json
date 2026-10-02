@@ -349,5 +349,156 @@
     "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
     "bytes": 2355,
     "adaptation": "Local project typography card with an official Lucide semantic icon; English project descriptions and real repository links."
+  },
+  {
+    "file": "postgresql.svg",
+    "source": "https://github.com/devicons/devicon/blob/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/postgresql/postgresql-original.svg",
+    "bytes": 9178
+  },
+  {
+    "file": "maven.svg",
+    "source": "https://github.com/devicons/devicon/blob/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/maven/maven-original.svg",
+    "bytes": 21634
+  },
+  {
+    "file": "vuejs.svg",
+    "source": "https://github.com/devicons/devicon/blob/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/vuejs/vuejs-original.svg",
+    "bytes": 561
+  },
+  {
+    "file": "react.svg",
+    "source": "https://github.com/devicons/devicon/blob/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/react/react-original.svg",
+    "bytes": 2387
+  },
+  {
+    "file": "nodejs.svg",
+    "source": "https://github.com/devicons/devicon/blob/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/nodejs/nodejs-original.svg",
+    "bytes": 1806
+  },
+  {
+    "file": "vitejs.svg",
+    "source": "https://github.com/devicons/devicon/blob/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/vitejs/vitejs-original.svg",
+    "bytes": 1276
+  },
+  {
+    "file": "docker.svg",
+    "source": "https://github.com/devicons/devicon/blob/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/docker/docker-original.svg",
+    "bytes": 4452
+  },
+  {
+    "file": "junit.svg",
+    "source": "https://github.com/devicons/devicon/blob/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/junit/junit-original.svg",
+    "bytes": 1061
+  },
+  {
+    "file": "playwright.svg",
+    "source": "https://github.com/devicons/devicon/blob/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/playwright/playwright-original.svg",
+    "bytes": 3760
+  },
+  {
+    "file": "mcp.svg",
+    "source": "https://github.com/simple-icons/simple-icons/blob/1089fb7d2bf0e323f834c205ab76265005a6d5e8/icons/modelcontextprotocol.svg",
+    "bytes": 939
+  },
+  {
+    "file": "icons/wrench.svg",
+    "source": "https://github.com/lucide-icons/lucide/blob/c3f226680150e5d0c8cac9b6b95c94f69b256f67/icons/wrench.svg",
+    "bytes": 417
+  },
+  {
+    "file": "toolbox-ai-agents-dark-compact.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-toolbox-assets.mjs",
+    "bytes": 5078,
+    "adaptation": "Grouped toolbox typography component with embedded official technology icons; compact layout and light/dark variants. Spring brand icon is used for the Spring Boot and Spring AI labels."
+  },
+  {
+    "file": "toolbox-ai-agents-dark.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-toolbox-assets.mjs",
+    "bytes": 5202,
+    "adaptation": "Grouped toolbox typography component with embedded official technology icons; compact layout and light/dark variants. Spring brand icon is used for the Spring Boot and Spring AI labels."
+  },
+  {
+    "file": "toolbox-ai-agents-light-compact.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-toolbox-assets.mjs",
+    "bytes": 5078,
+    "adaptation": "Grouped toolbox typography component with embedded official technology icons; compact layout and light/dark variants. Spring brand icon is used for the Spring Boot and Spring AI labels."
+  },
+  {
+    "file": "toolbox-ai-agents-light.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-toolbox-assets.mjs",
+    "bytes": 5202,
+    "adaptation": "Grouped toolbox typography component with embedded official technology icons; compact layout and light/dark variants. Spring brand icon is used for the Spring Boot and Spring AI labels."
+  },
+  {
+    "file": "toolbox-backend-dark-compact.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-toolbox-assets.mjs",
+    "bytes": 47056,
+    "adaptation": "Grouped toolbox typography component with embedded official technology icons; compact layout and light/dark variants. Spring brand icon is used for the Spring Boot and Spring AI labels."
+  },
+  {
+    "file": "toolbox-backend-dark.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-toolbox-assets.mjs",
+    "bytes": 47118,
+    "adaptation": "Grouped toolbox typography component with embedded official technology icons; compact layout and light/dark variants. Spring brand icon is used for the Spring Boot and Spring AI labels."
+  },
+  {
+    "file": "toolbox-backend-light-compact.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-toolbox-assets.mjs",
+    "bytes": 47056,
+    "adaptation": "Grouped toolbox typography component with embedded official technology icons; compact layout and light/dark variants. Spring brand icon is used for the Spring Boot and Spring AI labels."
+  },
+  {
+    "file": "toolbox-backend-light.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-toolbox-assets.mjs",
+    "bytes": 47118,
+    "adaptation": "Grouped toolbox typography component with embedded official technology icons; compact layout and light/dark variants. Spring brand icon is used for the Spring Boot and Spring AI labels."
+  },
+  {
+    "file": "toolbox-engineering-dark-compact.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-toolbox-assets.mjs",
+    "bytes": 18040,
+    "adaptation": "Grouped toolbox typography component with embedded official technology icons; compact layout and light/dark variants. Spring brand icon is used for the Spring Boot and Spring AI labels."
+  },
+  {
+    "file": "toolbox-engineering-dark.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-toolbox-assets.mjs",
+    "bytes": 18136,
+    "adaptation": "Grouped toolbox typography component with embedded official technology icons; compact layout and light/dark variants. Spring brand icon is used for the Spring Boot and Spring AI labels."
+  },
+  {
+    "file": "toolbox-engineering-light-compact.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-toolbox-assets.mjs",
+    "bytes": 18040,
+    "adaptation": "Grouped toolbox typography component with embedded official technology icons; compact layout and light/dark variants. Spring brand icon is used for the Spring Boot and Spring AI labels."
+  },
+  {
+    "file": "toolbox-engineering-light.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-toolbox-assets.mjs",
+    "bytes": 18136,
+    "adaptation": "Grouped toolbox typography component with embedded official technology icons; compact layout and light/dark variants. Spring brand icon is used for the Spring Boot and Spring AI labels."
+  },
+  {
+    "file": "toolbox-full-stack-dark-compact.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-toolbox-assets.mjs",
+    "bytes": 14016,
+    "adaptation": "Grouped toolbox typography component with embedded official technology icons; compact layout and light/dark variants. Spring brand icon is used for the Spring Boot and Spring AI labels."
+  },
+  {
+    "file": "toolbox-full-stack-dark.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-toolbox-assets.mjs",
+    "bytes": 14218,
+    "adaptation": "Grouped toolbox typography component with embedded official technology icons; compact layout and light/dark variants. Spring brand icon is used for the Spring Boot and Spring AI labels."
+  },
+  {
+    "file": "toolbox-full-stack-light-compact.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-toolbox-assets.mjs",
+    "bytes": 14016,
+    "adaptation": "Grouped toolbox typography component with embedded official technology icons; compact layout and light/dark variants. Spring brand icon is used for the Spring Boot and Spring AI labels."
+  },
+  {
+    "file": "toolbox-full-stack-light.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-toolbox-assets.mjs",
+    "bytes": 14218,
+    "adaptation": "Grouped toolbox typography component with embedded official technology icons; compact layout and light/dark variants. Spring brand icon is used for the Spring Boot and Spring AI labels."
   }
 ]
