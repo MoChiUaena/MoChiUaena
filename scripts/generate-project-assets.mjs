@@ -33,6 +33,10 @@ const badge = (label,x,y,color,surface) => {
   const width=Math.ceil(measure(label,13))+26;
   return '<rect x="'+x+'" y="'+y+'" width="'+width+'" height="26" rx="7" fill="'+surface+'"/>'+text(label,x+13,y+18,13,color,600);
 };
+for (const dark of [false,true]) {
+  const color=dark ? '#bdc7d4' : '#57606a';
+  write('pr-label-'+(dark ? 'dark' : 'light')+'.svg',57,30,'My PRs:',text('My PRs:',0,20,12.5,color,600));
+}
 for (const group of ['projects','contributions']) {
   for (const item of config[group]) {
     const upstream=group==='contributions';
@@ -83,11 +87,11 @@ let sections='## Things I\'m building\n\n';
 for (let i=0;i<config.projects.length;i+=2) sections+='<p>\n'+config.projects.slice(i,i+2).map(item=>picture(item)).join('\n')+'\n</p>\n\n';
 sections+='## Projects I contribute to\n\nFixes and improvements in the Java ecosystem.\n\n';
 for (const item of config.contributions) {
-  sections+=picture(item,true)+'\n\n<p>\n  <sub>My PRs:</sub>\n';
+  sections+=picture(item,true)+'\n\n<p>\n  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-label-dark.svg" /><img src="assets/pr-label-light.svg" height="30" alt="My PRs:" /></picture>\n';
   for (const number of item.prs) sections+='  <a href="https://github.com/'+item.repo+'/pull/'+number+'"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-'+item.id+'-'+number+'-dark.svg" /><img src="assets/pr-'+item.id+'-'+number+'-light.svg" height="30" alt="PR #'+number+'" /></picture></a>\n';
   sections+='</p>\n\n';
 }
 const readmeFile=new URL('README.md',root);
 const readme=fs.readFileSync(readmeFile,'utf8');
 fs.writeFileSync(readmeFile,readme.replace(/## Things I'm building[\s\S]*?(?=## Every commit counts)/,sections));
-console.log('Generated 28 themed project cards, 12 clickable PR badges, and the README project sections.');
+console.log('Generated 28 themed project cards, 12 clickable PR badges, two aligned PR labels, and the README project sections.');

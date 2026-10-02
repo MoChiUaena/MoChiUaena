@@ -90,5 +90,12 @@
         60
       ]
     }
-  ]
+  ],
+  "pullRequestRows": {
+    "lightLabel": "assets/pr-label-light.svg",
+    "darkLabel": "assets/pr-label-dark.svg",
+    "imageHeight": 30,
+    "textBaseline": 20,
+    "layout": "Label and linked PR badges use equally high inline SVG images with a shared text baseline; each PR retains its own link."
+  }
 }

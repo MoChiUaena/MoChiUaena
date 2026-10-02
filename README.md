@@ -32,13 +32,13 @@
 
 ## My toolbox
 
-<p><picture><source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/toolbox-backend-dark-compact.svg" /><source media="(max-width: 620px)" srcset="assets/toolbox-backend-light-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/toolbox-backend-dark.svg" /><img src="assets/toolbox-backend-light.svg" width="100%" alt="Java backend — Java, Spring Boot, PostgreSQL, Maven" /></picture></p>
+<p><picture><source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/toolbox-backend-dark-compact.svg?v=captions-20261002" /><source media="(max-width: 620px)" srcset="assets/toolbox-backend-light-compact.svg?v=captions-20261002" /><source media="(prefers-color-scheme: dark)" srcset="assets/toolbox-backend-dark.svg?v=captions-20261002" /><img src="assets/toolbox-backend-light.svg?v=captions-20261002" width="100%" alt="Java backend — Java, Spring Boot, PostgreSQL, Maven" /></picture></p>
 
-<p><picture><source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/toolbox-full-stack-dark-compact.svg" /><source media="(max-width: 620px)" srcset="assets/toolbox-full-stack-light-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/toolbox-full-stack-dark.svg" /><img src="assets/toolbox-full-stack-light.svg" width="100%" alt="Full-stack — TypeScript, JavaScript, Vue, React, Node.js, Vite" /></picture></p>
+<p><picture><source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/toolbox-full-stack-dark-compact.svg?v=captions-20261002" /><source media="(max-width: 620px)" srcset="assets/toolbox-full-stack-light-compact.svg?v=captions-20261002" /><source media="(prefers-color-scheme: dark)" srcset="assets/toolbox-full-stack-dark.svg?v=captions-20261002" /><img src="assets/toolbox-full-stack-light.svg?v=captions-20261002" width="100%" alt="Full-stack — TypeScript, JavaScript, Vue, React, Node.js, Vite" /></picture></p>
 
-<p><picture><source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/toolbox-ai-agents-dark-compact.svg" /><source media="(max-width: 620px)" srcset="assets/toolbox-ai-agents-light-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/toolbox-ai-agents-dark.svg" /><img src="assets/toolbox-ai-agents-light.svg" width="100%" alt="AI agents — Spring AI, MCP, Tool calling" /></picture></p>
+<p><picture><source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/toolbox-ai-agents-dark-compact.svg?v=captions-20261002" /><source media="(max-width: 620px)" srcset="assets/toolbox-ai-agents-light-compact.svg?v=captions-20261002" /><source media="(prefers-color-scheme: dark)" srcset="assets/toolbox-ai-agents-dark.svg?v=captions-20261002" /><img src="assets/toolbox-ai-agents-light.svg?v=captions-20261002" width="100%" alt="AI agents — Spring AI, MCP, Tool calling" /></picture></p>
 
-<p><picture><source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/toolbox-engineering-dark-compact.svg" /><source media="(max-width: 620px)" srcset="assets/toolbox-engineering-light-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/toolbox-engineering-dark.svg" /><img src="assets/toolbox-engineering-light.svg" width="100%" alt="Engineering — Git, Docker, JUnit, Playwright, Markdown" /></picture></p>
+<p><picture><source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/toolbox-engineering-dark-compact.svg?v=captions-20261002" /><source media="(max-width: 620px)" srcset="assets/toolbox-engineering-light-compact.svg?v=captions-20261002" /><source media="(prefers-color-scheme: dark)" srcset="assets/toolbox-engineering-dark.svg?v=captions-20261002" /><img src="assets/toolbox-engineering-light.svg?v=captions-20261002" width="100%" alt="Engineering — Git, Docker, JUnit, Playwright, Markdown" /></picture></p>
 
 ## Things I'm building
 
@@ -59,7 +59,7 @@ Fixes and improvements in the Java ecosystem.
 <a href="https://github.com/OpenAPITools/openapi-diff"><picture><source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/project-openapi-diff-dark-compact.svg" /><source media="(max-width: 620px)" srcset="assets/project-openapi-diff-light-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/project-openapi-diff-dark.svg" /><img src="assets/project-openapi-diff-light.svg" width="100%" alt="OpenAPI Diff — Contributing fixes for discriminator alias handling and example-change reporting. Java" /></picture></a>
 
 <p>
-  <sub>My PRs:</sub>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-label-dark.svg" /><img src="assets/pr-label-light.svg" height="30" alt="My PRs:" /></picture>
   <a href="https://github.com/OpenAPITools/openapi-diff/pull/929"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-openapi-diff-929-dark.svg" /><img src="assets/pr-openapi-diff-929-light.svg" height="30" alt="PR #929" /></picture></a>
   <a href="https://github.com/OpenAPITools/openapi-diff/pull/930"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-openapi-diff-930-dark.svg" /><img src="assets/pr-openapi-diff-930-light.svg" height="30" alt="PR #930" /></picture></a>
 </p>
@@ -67,14 +67,14 @@ Fixes and improvements in the Java ecosystem.
 <a href="https://github.com/resilience4j/resilience4j"><picture><source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/project-resilience4j-dark-compact.svg" /><source media="(max-width: 620px)" srcset="assets/project-resilience4j-light-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/project-resilience4j-dark.svg" /><img src="assets/project-resilience4j-light.svg" width="100%" alt="Resilience4j — Contributing a fix for final fallback invocation in Spring-proxied services. Java" /></picture></a>
 
 <p>
-  <sub>My PRs:</sub>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-label-dark.svg" /><img src="assets/pr-label-light.svg" height="30" alt="My PRs:" /></picture>
   <a href="https://github.com/resilience4j/resilience4j/pull/2536"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-resilience4j-2536-dark.svg" /><img src="assets/pr-resilience4j-2536-light.svg" height="30" alt="PR #2536" /></picture></a>
 </p>
 
 <a href="https://github.com/Snailclimb/interview-guide"><picture><source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/project-interview-guide-dark-compact.svg" /><source media="(max-width: 620px)" srcset="assets/project-interview-guide-light-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/project-interview-guide-dark.svg" /><img src="assets/project-interview-guide-light.svg" width="100%" alt="InterviewGuide — Improving knowledge-base upload concurrency and PDF report rendering and navigation. Java" /></picture></a>
 
 <p>
-  <sub>My PRs:</sub>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-label-dark.svg" /><img src="assets/pr-label-light.svg" height="30" alt="My PRs:" /></picture>
   <a href="https://github.com/Snailclimb/interview-guide/pull/58"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-interview-guide-58-dark.svg" /><img src="assets/pr-interview-guide-58-light.svg" height="30" alt="PR #58" /></picture></a>
   <a href="https://github.com/Snailclimb/interview-guide/pull/59"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-interview-guide-59-dark.svg" /><img src="assets/pr-interview-guide-59-light.svg" height="30" alt="PR #59" /></picture></a>
   <a href="https://github.com/Snailclimb/interview-guide/pull/60"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-interview-guide-60-dark.svg" /><img src="assets/pr-interview-guide-60-light.svg" height="30" alt="PR #60" /></picture></a>
