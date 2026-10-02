@@ -78,7 +78,7 @@ for (const group of ['projects','contributions']) {
     }
   }
 }
-const picture = (item,upstream=false) => '<a href="https://github.com/'+item.repo+'">\n  <picture>\n    <source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/project-'+item.id+'-dark-compact.svg" />\n    <source media="(max-width: 620px)" srcset="assets/project-'+item.id+'-light-compact.svg" />\n    <source media="(prefers-color-scheme: dark)" srcset="assets/project-'+item.id+'-dark.svg" />\n    <img src="assets/project-'+item.id+'-light.svg" width="'+(upstream ? '100%' : '400')+'" alt="'+esc(item.name+' — '+item.description+' '+item.language)+ '" />\n  </picture>\n</a>';
+const picture = (item,upstream=false) => ('<a href="https://github.com/'+item.repo+'">\n  <picture>\n    <source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/project-'+item.id+'-dark-compact.svg" />\n    <source media="(max-width: 620px)" srcset="assets/project-'+item.id+'-light-compact.svg" />\n    <source media="(prefers-color-scheme: dark)" srcset="assets/project-'+item.id+'-dark.svg" />\n    <img src="assets/project-'+item.id+'-light.svg" width="'+(upstream ? '100%' : '400')+'" alt="'+esc(item.name+' — '+item.description+' '+item.language)+ '" />\n  </picture>\n</a>').replace(/>\s+</g,'><');
 let sections='## Things I\'m building\n\n';
 for (let i=0;i<config.projects.length;i+=2) sections+='<p>\n'+config.projects.slice(i,i+2).map(item=>picture(item)).join('\n')+'\n</p>\n\n';
 sections+='## Projects I contribute to\n\nFixes and improvements in the Java ecosystem.\n\n';
