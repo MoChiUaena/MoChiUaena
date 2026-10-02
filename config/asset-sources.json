@@ -109,5 +109,245 @@
     "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-intro-assets.mjs",
     "bytes": 843,
     "adaptation": "Local color badge with an official Lucide interface icon."
+  },
+  {
+    "file": "pr-interview-guide-58-dark.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 655,
+    "adaptation": "Local PR badge with the official Lucide git-pull-request icon; badge links remain in README HTML."
+  },
+  {
+    "file": "pr-interview-guide-58-light.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 655,
+    "adaptation": "Local PR badge with the official Lucide git-pull-request icon; badge links remain in README HTML."
+  },
+  {
+    "file": "pr-interview-guide-59-dark.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 655,
+    "adaptation": "Local PR badge with the official Lucide git-pull-request icon; badge links remain in README HTML."
+  },
+  {
+    "file": "pr-interview-guide-59-light.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 655,
+    "adaptation": "Local PR badge with the official Lucide git-pull-request icon; badge links remain in README HTML."
+  },
+  {
+    "file": "pr-interview-guide-60-dark.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 655,
+    "adaptation": "Local PR badge with the official Lucide git-pull-request icon; badge links remain in README HTML."
+  },
+  {
+    "file": "pr-interview-guide-60-light.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 655,
+    "adaptation": "Local PR badge with the official Lucide git-pull-request icon; badge links remain in README HTML."
+  },
+  {
+    "file": "pr-openapi-diff-929-dark.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 658,
+    "adaptation": "Local PR badge with the official Lucide git-pull-request icon; badge links remain in README HTML."
+  },
+  {
+    "file": "pr-openapi-diff-929-light.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 658,
+    "adaptation": "Local PR badge with the official Lucide git-pull-request icon; badge links remain in README HTML."
+  },
+  {
+    "file": "pr-openapi-diff-930-dark.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 658,
+    "adaptation": "Local PR badge with the official Lucide git-pull-request icon; badge links remain in README HTML."
+  },
+  {
+    "file": "pr-openapi-diff-930-light.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 658,
+    "adaptation": "Local PR badge with the official Lucide git-pull-request icon; badge links remain in README HTML."
+  },
+  {
+    "file": "pr-resilience4j-2536-dark.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 663,
+    "adaptation": "Local PR badge with the official Lucide git-pull-request icon; badge links remain in README HTML."
+  },
+  {
+    "file": "pr-resilience4j-2536-light.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 663,
+    "adaptation": "Local PR badge with the official Lucide git-pull-request icon; badge links remain in README HTML."
+  },
+  {
+    "file": "project-agent-triage-dark-compact.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 2561,
+    "adaptation": "Local project typography card with an official Lucide semantic icon; English project descriptions and real repository links."
+  },
+  {
+    "file": "project-agent-triage-dark.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 2560,
+    "adaptation": "Local project typography card with an official Lucide semantic icon; English project descriptions and real repository links."
+  },
+  {
+    "file": "project-agent-triage-light-compact.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 2561,
+    "adaptation": "Local project typography card with an official Lucide semantic icon; English project descriptions and real repository links."
+  },
+  {
+    "file": "project-agent-triage-light.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 2560,
+    "adaptation": "Local project typography card with an official Lucide semantic icon; English project descriptions and real repository links."
+  },
+  {
+    "file": "project-interview-guide-dark-compact.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 2553,
+    "adaptation": "Local project typography card with an official Lucide semantic icon; English project descriptions and real repository links."
+  },
+  {
+    "file": "project-interview-guide-dark.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 2446,
+    "adaptation": "Local project typography card with an official Lucide semantic icon; English project descriptions and real repository links."
+  },
+  {
+    "file": "project-interview-guide-light-compact.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 2553,
+    "adaptation": "Local project typography card with an official Lucide semantic icon; English project descriptions and real repository links."
+  },
+  {
+    "file": "project-interview-guide-light.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 2446,
+    "adaptation": "Local project typography card with an official Lucide semantic icon; English project descriptions and real repository links."
+  },
+  {
+    "file": "project-openapi-diff-dark-compact.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 2556,
+    "adaptation": "Local project typography card with an official Lucide semantic icon; English project descriptions and real repository links."
+  },
+  {
+    "file": "project-openapi-diff-dark.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 2448,
+    "adaptation": "Local project typography card with an official Lucide semantic icon; English project descriptions and real repository links."
+  },
+  {
+    "file": "project-openapi-diff-light-compact.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 2556,
+    "adaptation": "Local project typography card with an official Lucide semantic icon; English project descriptions and real repository links."
+  },
+  {
+    "file": "project-openapi-diff-light.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 2448,
+    "adaptation": "Local project typography card with an official Lucide semantic icon; English project descriptions and real repository links."
+  },
+  {
+    "file": "project-resilience4j-dark-compact.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 2544,
+    "adaptation": "Local project typography card with an official Lucide semantic icon; English project descriptions and real repository links."
+  },
+  {
+    "file": "project-resilience4j-dark.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 2436,
+    "adaptation": "Local project typography card with an official Lucide semantic icon; English project descriptions and real repository links."
+  },
+  {
+    "file": "project-resilience4j-light-compact.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 2544,
+    "adaptation": "Local project typography card with an official Lucide semantic icon; English project descriptions and real repository links."
+  },
+  {
+    "file": "project-resilience4j-light.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 2436,
+    "adaptation": "Local project typography card with an official Lucide semantic icon; English project descriptions and real repository links."
+  },
+  {
+    "file": "project-resume-workbench-dark-compact.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 2488,
+    "adaptation": "Local project typography card with an official Lucide semantic icon; English project descriptions and real repository links."
+  },
+  {
+    "file": "project-resume-workbench-dark.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 2487,
+    "adaptation": "Local project typography card with an official Lucide semantic icon; English project descriptions and real repository links."
+  },
+  {
+    "file": "project-resume-workbench-light-compact.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 2488,
+    "adaptation": "Local project typography card with an official Lucide semantic icon; English project descriptions and real repository links."
+  },
+  {
+    "file": "project-resume-workbench-light.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 2487,
+    "adaptation": "Local project typography card with an official Lucide semantic icon; English project descriptions and real repository links."
+  },
+  {
+    "file": "project-rshot-dark-compact.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 2967,
+    "adaptation": "Local project typography card with an official Lucide semantic icon; English project descriptions and real repository links."
+  },
+  {
+    "file": "project-rshot-dark.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 2848,
+    "adaptation": "Local project typography card with an official Lucide semantic icon; English project descriptions and real repository links."
+  },
+  {
+    "file": "project-rshot-light-compact.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 2967,
+    "adaptation": "Local project typography card with an official Lucide semantic icon; English project descriptions and real repository links."
+  },
+  {
+    "file": "project-rshot-light.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 2848,
+    "adaptation": "Local project typography card with an official Lucide semantic icon; English project descriptions and real repository links."
+  },
+  {
+    "file": "project-tech-resume-kit-dark-compact.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 2474,
+    "adaptation": "Local project typography card with an official Lucide semantic icon; English project descriptions and real repository links."
+  },
+  {
+    "file": "project-tech-resume-kit-dark.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 2355,
+    "adaptation": "Local project typography card with an official Lucide semantic icon; English project descriptions and real repository links."
+  },
+  {
+    "file": "project-tech-resume-kit-light-compact.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 2474,
+    "adaptation": "Local project typography card with an official Lucide semantic icon; English project descriptions and real repository links."
+  },
+  {
+    "file": "project-tech-resume-kit-light.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-project-assets.mjs",
+    "bytes": 2355,
+    "adaptation": "Local project typography card with an official Lucide semantic icon; English project descriptions and real repository links."
   }
 ]

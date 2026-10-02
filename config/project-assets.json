@@ -1,0 +1,94 @@
+{
+  "generatedBy": "scripts/generate-project-assets.mjs",
+  "iconSource": {
+    "repository": "lucide-icons/lucide",
+    "revision": "09aa9c5c62c3b4b519fbb8c9ce1c396cc12f4dae",
+    "license": "assets/icons/LICENSE"
+  },
+  "projects": [
+    {
+      "id": "agent-triage",
+      "name": "agent-triage",
+      "repo": "MoChiUaena/agent-triage",
+      "language": "Java",
+      "category": "AI · SERVICE DIAGNOSTICS",
+      "icon": "bot",
+      "theme": "blue",
+      "description": "Evidence-based incident triage for Java services, with bounded, read-only diagnostic tools."
+    },
+    {
+      "id": "resume-workbench",
+      "name": "resume-workbench",
+      "repo": "MoChiUaena/resume-workbench",
+      "language": "Java",
+      "category": "FULL-STACK · LOCAL-FIRST",
+      "icon": "panels-top-left",
+      "theme": "purple",
+      "description": "A local-first resume editor with layout customization, version history, and PDF export."
+    },
+    {
+      "id": "rshot",
+      "name": "RSHOT",
+      "repo": "MoChiUaena/RSHOT",
+      "language": "TypeScript",
+      "category": "REMOTE SENSING · RESEARCH",
+      "icon": "satellite",
+      "theme": "teal",
+      "description": "A remote sensing research and engineering digest with summaries, topic indexes, and updates."
+    },
+    {
+      "id": "tech-resume-kit",
+      "name": "tech-resume-kit",
+      "repo": "MoChiUaena/tech-resume-kit",
+      "language": "JavaScript",
+      "category": "MARKDOWN · DEVELOPER TOOLS",
+      "icon": "code-xml",
+      "theme": "orange",
+      "description": "Markdown resume templates for technical roles, with local editing and PDF export."
+    }
+  ],
+  "contributions": [
+    {
+      "id": "openapi-diff",
+      "name": "OpenAPI Diff",
+      "repo": "OpenAPITools/openapi-diff",
+      "language": "Java",
+      "category": "API COMPATIBILITY",
+      "icon": "git-compare-arrows",
+      "theme": "blue",
+      "description": "Contributing fixes for discriminator alias handling and example-change reporting.",
+      "prs": [
+        929,
+        930
+      ]
+    },
+    {
+      "id": "resilience4j",
+      "name": "Resilience4j",
+      "repo": "resilience4j/resilience4j",
+      "language": "Java",
+      "category": "SERVICE RESILIENCE",
+      "icon": "shield-check",
+      "theme": "purple",
+      "description": "Contributing a fix for final fallback invocation in Spring-proxied services.",
+      "prs": [
+        2536
+      ]
+    },
+    {
+      "id": "interview-guide",
+      "name": "InterviewGuide",
+      "repo": "Snailclimb/interview-guide",
+      "language": "Java",
+      "category": "KNOWLEDGE & REPORTING",
+      "icon": "book-open",
+      "theme": "teal",
+      "description": "Improving knowledge-base upload concurrency and PDF report rendering and navigation.",
+      "prs": [
+        58,
+        59,
+        60
+      ]
+    }
+  ]
+}
