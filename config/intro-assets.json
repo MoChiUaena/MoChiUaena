@@ -1,0 +1,36 @@
+{
+  "generatedBy": "scripts/generate-intro-assets.mjs",
+  "typography": "Segoe UI, Arial, sans-serif; names and badges are local SVG text components.",
+  "icons": {
+    "project": "https://github.com/lucide-icons/lucide",
+    "files": [
+      "server.svg",
+      "code-xml.svg",
+      "bot.svg",
+      "graduation-cap.svg"
+    ],
+    "licenseFile": "assets/icons/LICENSE"
+  },
+  "typing": {
+    "project": "https://github.com/DenverCoder1/readme-typing-svg",
+    "service": "https://readme-typing-svg.demolab.com/",
+    "lines": [
+      "Java Backend Developer",
+      "Full-Stack Developer",
+      "AI Agent Application Developer"
+    ],
+    "lightFile": "assets/focus-typing.svg",
+    "darkFile": "assets/focus-typing-dark.svg",
+    "adaptation": "The dark variant changes the text color to #BC8CFF."
+  },
+  "education": {
+    "desktopViewBox": "460 x 166",
+    "compactViewBox": "340 x 204",
+    "compactBreakpoint": "620px",
+    "degreeWording": "Undergraduate & graduate studies",
+    "themes": [
+      "light",
+      "dark"
+    ]
+  }
+}

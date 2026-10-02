@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="330" height="58" viewBox="0 0 330 58" role="img" aria-label="Hi, I'm MoChiUaena"><title>Hi, I'm MoChiUaena</title>
+  <defs><linearGradient id="name" x1="0" x2="1"><stop stop-color="#0969da"/><stop offset=".55" stop-color="#8250df"/><stop offset="1" stop-color="#007d8e"/></linearGradient></defs>
+  <text x="0" y="38" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700" fill="url(#name)">Hi, I'm MoChiUaena</text>
+  <rect x="0" y="50" width="108" height="3" rx="1.5" fill="url(#name)"/>
+</svg>

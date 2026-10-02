@@ -6,17 +6,27 @@
 
 <img src="assets/hello-coders.gif" width="300" alt="Hello coders" />
 
-<h2>Hi, I'm MoChiUaena <img src="assets/computer.gif" width="45" alt="PC" /></h2>
+<h2><img src="assets/name-title.svg" width="270" alt="Hi, I'm MoChiUaena" /> <img src="assets/computer.gif" width="45" alt="PC" /></h2>
 
-`Java Backend` · `Full-Stack` · `AI Agents`
+<p>
+  <img src="assets/role-java.svg" height="30" alt="Java Backend" />
+  <img src="assets/role-full-stack.svg" height="30" alt="Full-Stack" />
+  <img src="assets/role-ai-agents.svg" height="30" alt="AI Agents" />
+</p>
 
-With a background in remote sensing, I build practical software and AI Agent applications.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/focus-typing-dark.svg" />
+  <img src="assets/focus-typing.svg" width="450" alt="Java Backend Developer, Full-Stack Developer, and AI Agent Application Developer" />
+</picture>
 
-**Wuhan University**  
-School of Remote Sensing and Information Engineering  
-Undergraduate & graduate studies
+> With a background in **remote sensing**, I build practical software and **AI Agent applications**.
 
-Focused on Java backend systems, full-stack development, and AI Agent solutions.
+<picture>
+  <source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/education-dark-compact.svg" />
+  <source media="(max-width: 620px)" srcset="assets/education-light-compact.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/education-dark.svg" />
+  <img src="assets/education-light.svg" width="460" alt="Wuhan University — School of Remote Sensing and Information Engineering — Undergraduate &amp; graduate studies" />
+</picture>
 
 <br clear="both" />
 
@@ -90,5 +100,7 @@ A little fun along the way.
 - Contribution animation: [abozanona](https://github.com/abozanona/pacman-contribution-graph)
 - 3D contribution visualization: [yoshi389111](https://github.com/yoshi389111/github-profile-3d-contrib)
 - Technology icons: [Devicon](https://github.com/devicons/devicon)
+- Interface icons: [Lucide](https://github.com/lucide-icons/lucide)
+- Typing animation: [README Typing SVG](https://github.com/DenverCoder1/readme-typing-svg)
 
 </details>

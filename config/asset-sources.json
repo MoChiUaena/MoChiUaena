@@ -49,5 +49,65 @@
     "file": "markdown.svg",
     "source": "https://github.com/devicons/devicon/blob/HEAD/icons/markdown/markdown-original.svg",
     "bytes": 1244
+  },
+  {
+    "file": "education-dark-compact.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-intro-assets.mjs",
+    "bytes": 1868,
+    "adaptation": "Education typography card with official Lucide graduation-cap icon; English wording supplied by the user."
+  },
+  {
+    "file": "education-dark.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-intro-assets.mjs",
+    "bytes": 1751,
+    "adaptation": "Education typography card with official Lucide graduation-cap icon; English wording supplied by the user."
+  },
+  {
+    "file": "education-light-compact.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-intro-assets.mjs",
+    "bytes": 1868,
+    "adaptation": "Education typography card with official Lucide graduation-cap icon; English wording supplied by the user."
+  },
+  {
+    "file": "education-light.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-intro-assets.mjs",
+    "bytes": 1751,
+    "adaptation": "Education typography card with official Lucide graduation-cap icon; English wording supplied by the user."
+  },
+  {
+    "file": "focus-typing-dark.svg",
+    "source": "https://github.com/DenverCoder1/readme-typing-svg",
+    "bytes": 9190,
+    "adaptation": "Locally hosted SVG animation; dark variant uses lighter text."
+  },
+  {
+    "file": "focus-typing.svg",
+    "source": "https://github.com/DenverCoder1/readme-typing-svg",
+    "bytes": 9190,
+    "adaptation": "Locally hosted SVG animation; dark variant uses lighter text."
+  },
+  {
+    "file": "name-title.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-intro-assets.mjs",
+    "bytes": 563,
+    "adaptation": "Local gradient name typography."
+  },
+  {
+    "file": "role-ai-agents.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-intro-assets.mjs",
+    "bytes": 801,
+    "adaptation": "Local color badge with an official Lucide interface icon."
+  },
+  {
+    "file": "role-full-stack.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-intro-assets.mjs",
+    "bytes": 718,
+    "adaptation": "Local color badge with an official Lucide interface icon."
+  },
+  {
+    "file": "role-java.svg",
+    "source": "https://github.com/MoChiUaena/MoChiUaena/blob/main/scripts/generate-intro-assets.mjs",
+    "bytes": 843,
+    "adaptation": "Local color badge with an official Lucide interface icon."
   }
 ]

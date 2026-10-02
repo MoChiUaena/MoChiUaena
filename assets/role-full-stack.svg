@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="139" height="34" viewBox="0 0 139 34" role="img" aria-label="Full-Stack"><title>Full-Stack</title>
+    <defs><linearGradient id="badge" x1="0" x2="1"><stop stop-color="#0969da"/><stop offset="1" stop-color="#0b6f8e"/></linearGradient></defs>
+    <rect width="139" height="34" rx="7" fill="url(#badge)"/>
+    <g transform="translate(11 8) scale(0.75)" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m18 16 4-4-4-4" />
+  <path d="m6 8-4 4 4 4" />
+  <path d="m14.5 4-5 16" />
+</g>
+    <text x="38" y="22" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#fff">Full-Stack</text>
+  </svg>
