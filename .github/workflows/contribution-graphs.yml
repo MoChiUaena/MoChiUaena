@@ -28,9 +28,6 @@ jobs:
         with:
           node-version: '24'
 
-      - name: Check Bomberman contribution colors
-        run: node --test tests/bomberman-spawn-colors.test.mjs
-
       - name: Download the pinned generators
         env:
           GH_TOKEN: ${{ github.token }}
@@ -39,6 +36,12 @@ jobs:
           mkdir -p .tools/3d-output
           gh api 'repos/abozanona/pacman-contribution-graph/contents/dist/pacman-contribution-graph.min.js?ref=7332e1de7903ab780c3692a4127a59cc13872daa' -H 'Accept: application/vnd.github.raw' > .tools/arcade.mjs
           gh api 'repos/yoshi389111/github-profile-3d-contrib/contents/dist/index.js?ref=9e3f937195cf840d364388973f73e3c4b3753586' -H 'Accept: application/vnd.github.raw' > .tools/three-d.cjs
+
+      - name: Keep contribution cells as Bomberman obstacles
+        run: node scripts/patch-bomberman-spawns.mjs
+
+      - name: Check Bomberman collision and colors
+        run: node --test tests/bomberman-physics.test.mjs tests/bomberman-spawn-colors.test.mjs
 
       - name: Generate Bomberman in both themes
         env:

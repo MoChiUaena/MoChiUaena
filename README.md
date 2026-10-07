@@ -87,8 +87,8 @@ A little fun along the way.
 ### Bomberman
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/bomberman-dark.svg?v=spawn-colors-1" />
-  <img src="assets/bomberman.svg?v=spawn-colors-1" width="100%" alt="Bomberman contribution graph" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/bomberman-dark.svg?v=collision-1" />
+  <img src="assets/bomberman.svg?v=collision-1" width="100%" alt="Bomberman contribution graph" />
 </picture>
 
 ### A little more depth

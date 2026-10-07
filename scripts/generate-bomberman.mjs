@@ -10,7 +10,7 @@ const utcDay = value => {
   return new Date(Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate()));
 };
 
-const restoreContributionColors = (svg, store) => {
+const verifyContributionColors = (svg, store) => {
   const width = store.grid.length;
   const end = store.contributions.reduce(
     (latest, contribution) => {
@@ -34,18 +34,19 @@ const restoreContributionColors = (svg, store) => {
   }
 
   const found = new Set();
-  let restored = 0;
-  const corrected = svg.replace(/(<rect id="(c-\d+-\d+)"[^>]*\bfill=")([^"]+)(")/g,
-    (original, before, id, fill, after) => {
-      const color = colors.get(id);
-      if (!color) return original;
-      found.add(id);
-      if (fill !== color) restored++;
-      return before + color + after;
-    });
+  for (const match of svg.matchAll(/<rect id="(c-(\d+)-(\d+))"[^>]*\bfill="([^"]+)"/g)) {
+    const [, id, week, day, fill] = match;
+    const color = colors.get(id);
+    if (!color) continue;
+    if (store.initialColors[Number(week)]?.[Number(day)] !== color) {
+      throw new Error(`Bomberman initial game board differs from fetched contribution at ${id}`);
+    }
+    if (fill !== color) throw new Error(`Bomberman SVG differs from the game board at ${id}`);
+    found.add(id);
+  }
   const missing = [...colors.keys()].filter(id => !found.has(id));
   if (missing.length) throw new Error(`Contribution cells missing from Bomberman SVG: ${missing.join(', ')}`);
-  return { svg: corrected, restored };
+  return found.size;
 };
 
 for (const [theme,file] of [['github','bomberman.svg'],['github-dark','bomberman-dark.svg']]) {
@@ -60,8 +61,8 @@ for (const [theme,file] of [['github','bomberman.svg'],['github-dark','bomberman
   });
   const store = await renderer.start();
   if (!generatedSvg) throw new Error(`Bomberman did not produce ${file}`);
-  const corrected = restoreContributionColors(generatedSvg, store);
-  const english = corrected.svg.replace(/>(1[0-2]|[1-9])月</g,(_,month)=>'>'+monthNames[Number(month)-1]+'<');
+  const verified = verifyContributionColors(generatedSvg, store);
+  const english = generatedSvg.replace(/>(1[0-2]|[1-9])月</g,(_,month)=>'>'+monthNames[Number(month)-1]+'<');
   fs.writeFileSync(new URL('../assets/'+file,import.meta.url),english);
-  console.log(`${file}: restored ${corrected.restored} contribution cells cleared for player spawning.`);
+  console.log(`${file}: verified ${verified} contribution cells in the game board and SVG.`);
 }
