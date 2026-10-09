@@ -83,9 +83,7 @@ for (const group of ['projects','contributions']) {
   }
 }
 const picture = (item,upstream=false) => ('<a href="https://github.com/'+item.repo+'">\n  <picture>\n    <source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/project-'+item.id+'-dark-compact.svg" />\n    <source media="(max-width: 620px)" srcset="assets/project-'+item.id+'-light-compact.svg" />\n    <source media="(prefers-color-scheme: dark)" srcset="assets/project-'+item.id+'-dark.svg" />\n    <img src="assets/project-'+item.id+'-light.svg" width="'+(upstream ? '100%' : '400')+'" alt="'+esc(item.name+' — '+item.description+' '+item.language)+ '" />\n  </picture>\n</a>').replace(/>\s+</g,'><');
-let sections='## Things I\'m building\n\n';
-for (let i=0;i<config.projects.length;i+=2) sections+='<p>\n'+config.projects.slice(i,i+2).map(item=>picture(item)).join('\n')+'\n</p>\n\n';
-sections+='## Projects I contribute to\n\nFixes and improvements in the Java ecosystem.\n\n';
+let sections='## Projects I contribute to\n\nFixes and improvements in the Java ecosystem.\n\n';
 for (const item of config.contributions) {
   sections+=picture(item,true)+'\n\n<p>\n  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-label-dark.svg" /><img src="assets/pr-label-light.svg" height="30" alt="My PRs:" /></picture>\n';
   for (const number of item.prs) sections+='  <a href="https://github.com/'+item.repo+'/pull/'+number+'"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-'+item.id+'-'+number+'-dark.svg" /><img src="assets/pr-'+item.id+'-'+number+'-light.svg" height="30" alt="PR #'+number+'" /></picture></a>\n';
@@ -93,5 +91,7 @@ for (const item of config.contributions) {
 }
 const readmeFile=new URL('README.md',root);
 const readme=fs.readFileSync(readmeFile,'utf8');
-fs.writeFileSync(readmeFile,readme.replace(/## Things I'm building[\s\S]*?(?=## Every commit counts)/,sections));
-console.log('Generated 28 themed project cards, 12 clickable PR badges, two aligned PR labels, and the README project sections.');
+const projectSections=/^## (?:Things I'm building|Projects I contribute to)\r?\n[\s\S]*?(?=^## Every commit counts)/m;
+if (!projectSections.test(readme)) throw new Error('Could not find the README project sections');
+fs.writeFileSync(readmeFile,readme.replace(projectSections,sections));
+console.log('Generated '+config.contributions.length+' contribution card sets and '+config.contributions.reduce((count,item)=>count+item.prs.length,0)+' clickable PR badge sets.');

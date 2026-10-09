@@ -40,36 +40,9 @@
 
 <p><picture><source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/toolbox-engineering-dark-compact.svg?v=captions-20261002" /><source media="(max-width: 620px)" srcset="assets/toolbox-engineering-light-compact.svg?v=captions-20261002" /><source media="(prefers-color-scheme: dark)" srcset="assets/toolbox-engineering-dark.svg?v=captions-20261002" /><img src="assets/toolbox-engineering-light.svg?v=captions-20261002" width="100%" alt="Engineering — Git, Docker, JUnit, Playwright, Markdown" /></picture></p>
 
-## Things I'm building
-
-<p>
-<a href="https://github.com/MoChiUaena/agent-triage"><picture><source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/project-agent-triage-dark-compact.svg" /><source media="(max-width: 620px)" srcset="assets/project-agent-triage-light-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/project-agent-triage-dark.svg" /><img src="assets/project-agent-triage-light.svg" width="400" alt="agent-triage — Evidence-based incident triage for Java services, with bounded, read-only diagnostic tools. Java" /></picture></a>
-<a href="https://github.com/MoChiUaena/resume-workbench"><picture><source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/project-resume-workbench-dark-compact.svg" /><source media="(max-width: 620px)" srcset="assets/project-resume-workbench-light-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/project-resume-workbench-dark.svg" /><img src="assets/project-resume-workbench-light.svg" width="400" alt="resume-workbench — A local-first resume editor with layout customization, version history, and PDF export. Java" /></picture></a>
-</p>
-
-<p>
-<a href="https://github.com/MoChiUaena/RSHOT"><picture><source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/project-rshot-dark-compact.svg" /><source media="(max-width: 620px)" srcset="assets/project-rshot-light-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/project-rshot-dark.svg" /><img src="assets/project-rshot-light.svg" width="400" alt="RSHOT — A remote sensing research and engineering digest with summaries, topic indexes, and updates. TypeScript" /></picture></a>
-<a href="https://github.com/MoChiUaena/tech-resume-kit"><picture><source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/project-tech-resume-kit-dark-compact.svg" /><source media="(max-width: 620px)" srcset="assets/project-tech-resume-kit-light-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/project-tech-resume-kit-dark.svg" /><img src="assets/project-tech-resume-kit-light.svg" width="400" alt="tech-resume-kit — Markdown resume templates for technical roles, with local editing and PDF export. JavaScript" /></picture></a>
-</p>
-
 ## Projects I contribute to
 
 Fixes and improvements in the Java ecosystem.
-
-<a href="https://github.com/OpenAPITools/openapi-diff"><picture><source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/project-openapi-diff-dark-compact.svg" /><source media="(max-width: 620px)" srcset="assets/project-openapi-diff-light-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/project-openapi-diff-dark.svg" /><img src="assets/project-openapi-diff-light.svg" width="100%" alt="OpenAPI Diff — Contributing fixes for discriminator alias handling and example-change reporting. Java" /></picture></a>
-
-<p>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-label-dark.svg" /><img src="assets/pr-label-light.svg" height="30" alt="My PRs:" /></picture>
-  <a href="https://github.com/OpenAPITools/openapi-diff/pull/929"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-openapi-diff-929-dark.svg" /><img src="assets/pr-openapi-diff-929-light.svg" height="30" alt="PR #929" /></picture></a>
-  <a href="https://github.com/OpenAPITools/openapi-diff/pull/930"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-openapi-diff-930-dark.svg" /><img src="assets/pr-openapi-diff-930-light.svg" height="30" alt="PR #930" /></picture></a>
-</p>
-
-<a href="https://github.com/resilience4j/resilience4j"><picture><source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/project-resilience4j-dark-compact.svg" /><source media="(max-width: 620px)" srcset="assets/project-resilience4j-light-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/project-resilience4j-dark.svg" /><img src="assets/project-resilience4j-light.svg" width="100%" alt="Resilience4j — Contributing a fix for final fallback invocation in Spring-proxied services. Java" /></picture></a>
-
-<p>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-label-dark.svg" /><img src="assets/pr-label-light.svg" height="30" alt="My PRs:" /></picture>
-  <a href="https://github.com/resilience4j/resilience4j/pull/2536"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-resilience4j-2536-dark.svg" /><img src="assets/pr-resilience4j-2536-light.svg" height="30" alt="PR #2536" /></picture></a>
-</p>
 
 <a href="https://github.com/Snailclimb/interview-guide"><picture><source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/project-interview-guide-dark-compact.svg" /><source media="(max-width: 620px)" srcset="assets/project-interview-guide-light-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/project-interview-guide-dark.svg" /><img src="assets/project-interview-guide-light.svg" width="100%" alt="InterviewGuide — Improving knowledge-base upload concurrency and PDF report rendering and navigation. Java" /></picture></a>
 
@@ -78,6 +51,21 @@ Fixes and improvements in the Java ecosystem.
   <a href="https://github.com/Snailclimb/interview-guide/pull/58"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-interview-guide-58-dark.svg" /><img src="assets/pr-interview-guide-58-light.svg" height="30" alt="PR #58" /></picture></a>
   <a href="https://github.com/Snailclimb/interview-guide/pull/59"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-interview-guide-59-dark.svg" /><img src="assets/pr-interview-guide-59-light.svg" height="30" alt="PR #59" /></picture></a>
   <a href="https://github.com/Snailclimb/interview-guide/pull/60"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-interview-guide-60-dark.svg" /><img src="assets/pr-interview-guide-60-light.svg" height="30" alt="PR #60" /></picture></a>
+</p>
+
+<a href="https://github.com/jknack/handlebars.java"><picture><source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/project-handlebars-dark-compact.svg" /><source media="(max-width: 620px)" srcset="assets/project-handlebars-light-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/project-handlebars-dark.svg" /><img src="assets/project-handlebars-light.svg" width="100%" alt="Handlebars.java — Fixed EnumMap lookups for enum constants with class bodies. Java" /></picture></a>
+
+<p>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-label-dark.svg" /><img src="assets/pr-label-light.svg" height="30" alt="My PRs:" /></picture>
+  <a href="https://github.com/jknack/handlebars.java/pull/1190"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-handlebars-1190-dark.svg" /><img src="assets/pr-handlebars-1190-light.svg" height="30" alt="PR #1190" /></picture></a>
+</p>
+
+<a href="https://github.com/OpenAPITools/openapi-diff"><picture><source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/project-openapi-diff-dark-compact.svg" /><source media="(max-width: 620px)" srcset="assets/project-openapi-diff-light-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/project-openapi-diff-dark.svg" /><img src="assets/project-openapi-diff-light.svg" width="100%" alt="OpenAPI Diff — Contributing fixes for discriminator alias handling and example-change reporting. Java" /></picture></a>
+
+<p>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-label-dark.svg" /><img src="assets/pr-label-light.svg" height="30" alt="My PRs:" /></picture>
+  <a href="https://github.com/OpenAPITools/openapi-diff/pull/929"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-openapi-diff-929-dark.svg" /><img src="assets/pr-openapi-diff-929-light.svg" height="30" alt="PR #929" /></picture></a>
+  <a href="https://github.com/OpenAPITools/openapi-diff/pull/930"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-openapi-diff-930-dark.svg" /><img src="assets/pr-openapi-diff-930-light.svg" height="30" alt="PR #930" /></picture></a>
 </p>
 
 ## Every commit counts
