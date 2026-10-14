@@ -53,19 +53,21 @@ Fixes and improvements in the Java ecosystem.
   <a href="https://github.com/Snailclimb/interview-guide/pull/60"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-interview-guide-60-dark.svg" /><img src="assets/pr-interview-guide-60-light.svg" height="30" alt="PR #60" /></picture></a>
 </p>
 
+<a href="https://github.com/networknt/json-schema-validator"><picture><source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/project-json-schema-validator-dark-compact.svg" /><source media="(max-width: 620px)" srcset="assets/project-json-schema-validator-light-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/project-json-schema-validator-dark.svg" /><img src="assets/project-json-schema-validator-light.svg" width="100%" alt="JSON Schema Validator — Tightening RFC 3339 fractional-second and date-time offset validation. Java" /></picture></a>
+
+<p>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-label-dark.svg" /><img src="assets/pr-label-light.svg" height="30" alt="My PRs:" /></picture>
+  <a href="https://github.com/networknt/json-schema-validator/pull/1313"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-json-schema-validator-1313-dark.svg" /><img src="assets/pr-json-schema-validator-1313-light.svg" height="30" alt="PR #1313" /></picture></a>
+  <a href="https://github.com/networknt/json-schema-validator/pull/1314"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-json-schema-validator-1314-dark.svg" /><img src="assets/pr-json-schema-validator-1314-light.svg" height="30" alt="PR #1314" /></picture></a>
+  <a href="https://github.com/networknt/json-schema-validator/pull/1315"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-json-schema-validator-1315-dark.svg" /><img src="assets/pr-json-schema-validator-1315-light.svg" height="30" alt="PR #1315" /></picture></a>
+  <a href="https://github.com/networknt/json-schema-validator/pull/1322"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-json-schema-validator-1322-dark.svg" /><img src="assets/pr-json-schema-validator-1322-light.svg" height="30" alt="PR #1322" /></picture></a>
+</p>
+
 <a href="https://github.com/jknack/handlebars.java"><picture><source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/project-handlebars-dark-compact.svg" /><source media="(max-width: 620px)" srcset="assets/project-handlebars-light-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/project-handlebars-dark.svg" /><img src="assets/project-handlebars-light.svg" width="100%" alt="Handlebars.java — Fixed EnumMap lookups for enum constants with class bodies. Java" /></picture></a>
 
 <p>
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-label-dark.svg" /><img src="assets/pr-label-light.svg" height="30" alt="My PRs:" /></picture>
   <a href="https://github.com/jknack/handlebars.java/pull/1190"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-handlebars-1190-dark.svg" /><img src="assets/pr-handlebars-1190-light.svg" height="30" alt="PR #1190" /></picture></a>
-</p>
-
-<a href="https://github.com/OpenAPITools/openapi-diff"><picture><source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/project-openapi-diff-dark-compact.svg" /><source media="(max-width: 620px)" srcset="assets/project-openapi-diff-light-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/project-openapi-diff-dark.svg" /><img src="assets/project-openapi-diff-light.svg" width="100%" alt="OpenAPI Diff — Contributing fixes for discriminator alias handling and example-change reporting. Java" /></picture></a>
-
-<p>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-label-dark.svg" /><img src="assets/pr-label-light.svg" height="30" alt="My PRs:" /></picture>
-  <a href="https://github.com/OpenAPITools/openapi-diff/pull/929"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-openapi-diff-929-dark.svg" /><img src="assets/pr-openapi-diff-929-light.svg" height="30" alt="PR #929" /></picture></a>
-  <a href="https://github.com/OpenAPITools/openapi-diff/pull/930"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-openapi-diff-930-dark.svg" /><img src="assets/pr-openapi-diff-930-light.svg" height="30" alt="PR #930" /></picture></a>
 </p>
 
 ## Every commit counts

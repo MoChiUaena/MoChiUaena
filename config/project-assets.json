@@ -23,6 +23,22 @@
       ]
     },
     {
+      "id": "json-schema-validator",
+      "name": "JSON Schema Validator",
+      "repo": "networknt/json-schema-validator",
+      "language": "Java",
+      "category": "SCHEMA VALIDATION",
+      "icon": "shield-check",
+      "theme": "blue",
+      "description": "Tightening RFC 3339 fractional-second and date-time offset validation.",
+      "prs": [
+        1313,
+        1314,
+        1315,
+        1322
+      ]
+    },
+    {
       "id": "handlebars",
       "name": "Handlebars.java",
       "repo": "jknack/handlebars.java",
@@ -33,20 +49,6 @@
       "description": "Fixed EnumMap lookups for enum constants with class bodies.",
       "prs": [
         1190
-      ]
-    },
-    {
-      "id": "openapi-diff",
-      "name": "OpenAPI Diff",
-      "repo": "OpenAPITools/openapi-diff",
-      "language": "Java",
-      "category": "API COMPATIBILITY",
-      "icon": "git-compare-arrows",
-      "theme": "blue",
-      "description": "Contributing fixes for discriminator alias handling and example-change reporting.",
-      "prs": [
-        929,
-        930
       ]
     }
   ],
