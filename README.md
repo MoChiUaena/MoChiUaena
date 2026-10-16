@@ -63,11 +63,12 @@ Fixes and improvements in the Java ecosystem.
   <a href="https://github.com/networknt/json-schema-validator/pull/1322"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-json-schema-validator-1322-dark.svg" /><img src="assets/pr-json-schema-validator-1322-light.svg" height="30" alt="PR #1322" /></picture></a>
 </p>
 
-<a href="https://github.com/jknack/handlebars.java"><picture><source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/project-handlebars-dark-compact.svg" /><source media="(max-width: 620px)" srcset="assets/project-handlebars-light-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/project-handlebars-dark.svg" /><img src="assets/project-handlebars-light.svg" width="100%" alt="Handlebars.java — Fixed EnumMap lookups for enum constants with class bodies. Java" /></picture></a>
+<a href="https://github.com/jknack/handlebars.java"><picture><source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/project-handlebars-dark-compact.svg" /><source media="(max-width: 620px)" srcset="assets/project-handlebars-light-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/project-handlebars-dark.svg" /><img src="assets/project-handlebars-light.svg" width="100%" alt="Handlebars.java — Fixed EnumMap lookups and made Servlet imports optional in OSGi bundles. Java" /></picture></a>
 
 <p>
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-label-dark.svg" /><img src="assets/pr-label-light.svg" height="30" alt="My PRs:" /></picture>
   <a href="https://github.com/jknack/handlebars.java/pull/1190"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-handlebars-1190-dark.svg" /><img src="assets/pr-handlebars-1190-light.svg" height="30" alt="PR #1190" /></picture></a>
+  <a href="https://github.com/jknack/handlebars.java/pull/1193"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-handlebars-1193-dark.svg" /><img src="assets/pr-handlebars-1193-light.svg" height="30" alt="PR #1193" /></picture></a>
 </p>
 
 <a href="https://github.com/redisson/redisson"><picture><source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/project-redisson-dark-compact.svg" /><source media="(max-width: 620px)" srcset="assets/project-redisson-light-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/project-redisson-dark.svg" /><img src="assets/project-redisson-light.svg" width="100%" alt="Redisson — Fixed null-pointer exceptions in shutdown checks after successful blocking commands. Java" /></picture></a>

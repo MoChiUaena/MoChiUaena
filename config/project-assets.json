@@ -46,9 +46,10 @@
       "category": "TEMPLATE ENGINE",
       "icon": "code-xml",
       "theme": "purple",
-      "description": "Fixed EnumMap lookups for enum constants with class bodies.",
+      "description": "Fixed EnumMap lookups and made Servlet imports optional in OSGi bundles.",
       "prs": [
-        1190
+        1190,
+        1193
       ]
     },
     {
