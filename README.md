@@ -70,6 +70,13 @@ Fixes and improvements in the Java ecosystem.
   <a href="https://github.com/jknack/handlebars.java/pull/1190"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-handlebars-1190-dark.svg" /><img src="assets/pr-handlebars-1190-light.svg" height="30" alt="PR #1190" /></picture></a>
 </p>
 
+<a href="https://github.com/redisson/redisson"><picture><source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/project-redisson-dark-compact.svg" /><source media="(max-width: 620px)" srcset="assets/project-redisson-light-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/project-redisson-dark.svg" /><img src="assets/project-redisson-light.svg" width="100%" alt="Redisson — Fixed null-pointer exceptions in shutdown checks after successful blocking commands. Java" /></picture></a>
+
+<p>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-label-dark.svg" /><img src="assets/pr-label-light.svg" height="30" alt="My PRs:" /></picture>
+  <a href="https://github.com/redisson/redisson/pull/7379"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pr-redisson-7379-dark.svg" /><img src="assets/pr-redisson-7379-light.svg" height="30" alt="PR #7379" /></picture></a>
+</p>
+
 ## Every commit counts
 
 A little fun along the way.
